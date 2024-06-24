@@ -1,26 +1,33 @@
-import React from 'react'
-import { Link } from 'react-scroll'
-import {GiHamburgerMenu } from 'react-icons/gi'
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-
-const NavBar = () => {
-  const [show,setShow] = useState(false);
+const Navbar = () => {
+  const [show, setShow] = useState(false);
   return (
-  <nav>
-    <div className = 'logo'>Event Planner</div>
-    <div className = {show?"navLinks showmenu" : "navLinks"}>
-      <div className="Links">
-        <Link to="hero" spy={true} smooth={true} duration={500}>HOME</Link>
-        <Link to="services" spy={true} smooth={true} duration={500}>SERVICE</Link>
-        <Link to="about" spy={true} smooth={true} duration={500}>ABOUT</Link>
-        <Link to="contact" spy={true} smooth={true} duration={500}>CONTACT</Link>
+    <nav>
+      <div className="logo">KING's</div>
+      <div className={show ? "navLinks showmenu" : "navLinks"}>
+        <div className="links">
+          <Link to="hero" spy={true} smooth={true} duration={500}>
+            HOME
+          </Link>
+          <Link to="services" spy={true} smooth={true} duration={500}>
+            SERVICES
+          </Link>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            ABOUT
+          </Link>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            CONTACT
+          </Link>
+        </div>
       </div>
-    </div>
-    <div className="hamburger" onClick={()=>setShow(!show)}>
-    <GiHamburgerMenu/>
-    </div>
-  </nav>
-  )
-}
+      <div className="hamburger" onClick={() => setShow(!show)}>
+        <GiHamburgerMenu />
+      </div>
+    </nav>
+  );
+};
 
-export default NavBar
+export default Navbar;

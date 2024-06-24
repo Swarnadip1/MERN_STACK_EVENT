@@ -35,6 +35,7 @@ const Contact = () => {
         toast.error(error.response.data.message);
       });
   };
+
   return (
     <>
       <div className="contact container">

@@ -1,62 +1,55 @@
-import React from 'react';
+import React from "react";
 
 const Services = () => {
-
   const services = [
     {
       id: 1,
-      url:"/anniversary.jpg",
-      title:"We provide venues for Wedding",
-
+      url: "/birthday.jpg",
+      title: "Birthday Planning",
     },
     {
-      id:2,
-      url:"/camping.jpg",
-      title:"Best Camping Heights",
-
+      id: 2,
+      url: "/anniversary.jpg",
+      title: "Anniversary Planning",
     },
     {
       id: 3,
-      url:"/party.jpg",
-      title:"Party till you break the dance FLOOR!",
-
+      url: "/camping.jpg",
+      title: "Camping Trip Planning",
     },
     {
       id: 4,
-      url:"/wedding.jpg",
-      title:"Get Married at you dream destination",
-
+      url: "/gamenight.jpg",
+      title: "Game Night Planning",
     },
     {
       id: 5,
-      url:"/birthday.jpg",
-      title:"Memorable Birthday you will ever imagine",
-
+      url: "/party.jpg",
+      title: "Party Planning",
     },
     {
       id: 6,
-      url:"restaurant.jpg",
-      title:"Delicious and indulging food",
-
+      url: "/wedding.jpg",
+      title: "Wedding Planning",
     },
   ];
-  return(
-  <>
-    <div className="Services Container">
-      <h2>OUR SERVICES</h2>
-      <div className="banner">
-        {services.map((element) => {
-            return(
-              <div className="item" key = {element.id}>
+  return (
+    <>
+      <div className="services container">
+        <h2>OUR SERVICES</h2>
+        <div className="banner">
+          {services.map((element) => {
+            return (
+              <div className="item" key={element.id}>
                 <h3>{element.title}</h3>
-                <img src={element.url} alt={element.title}/>
+                <img src={element.url} alt={element.title} />
               </div>
             );
-        })}
+          })}
+        </div>
       </div>
-    </div>
-  </>
+    </>
   );
-}; 
+};
 
-export default Services
+export default Services;

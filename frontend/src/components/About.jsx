@@ -1,23 +1,25 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <section className='about container'>
-        <h4>Events</h4>
-        <h2>ABOUT</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Cupiditate facere aliquid natus commodi, modi iste tenetur suscipit temporibus odio amet, 
-          id deserunt possimus! Unde, magni veniam, 
-          exercitationem amet quam optio reprehenderit vel numquam voluptas suscipit quod inventore delectus et aliquid! Soluta nesciunt modi eaque unde eius dolor aliquid quod minima nobis commodi error, 
-          accusamus vitae sint, 
-          nisi recusandae reiciendis illum laborum praesentium molestiae nostrum! Nesciunt velit delectus nostrum cum quae, 
-          exercitationem eveniet fugit. Repudiandae assumenda odit mollitia ipsum animi iste tempora illo consequuntur a fuga id, 
-          libero fugit laborum aspernatur officia harum maxime ipsam quisquam. 
-          temporibus iusto quam.
-
-        </p>
+    <section className="about container">
+      <h4>Events</h4>
+      <h2>ABOUT</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis
+        voluptas provident animi corrupti dolor, ipsum deleniti perferendis
+        veniam neque labore enim odio ratione. Ad commodi rem corporis soluta
+        sed reprehenderit a quasi nihil, odit aperiam exercitationem? Suscipit
+        rerum quibusdam inventore atque veritatis accusantium excepturi,
+        molestias optio perferendis aliquam harum, amet dolore! Animi
+        consequuntur officiis modi eius cumque reiciendis harum ipsum
+        praesentium numquam fugit? Consequatur eveniet recusandae harum hic. Eum
+        illo praesentium optio accusantium, hic quibusdam delectus voluptatem
+        qui a officiis dolorum minima cum illum culpa doloremque quia quidem aut
+        sed laudantium nam repudiandae sequi similique! Esse natus at quas?
+      </p>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

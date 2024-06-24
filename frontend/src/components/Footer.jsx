@@ -1,24 +1,24 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-  return(
+  return (
     <footer>
       <div className="banner">
         <div className="title">
-          <h1>Event Planner</h1>
-          <p>Events and Weddings </p>
+          <h1>KING's</h1>
+          <p>Events and Weddings</p>
         </div>
         <div className="tag">
           <label>News Letter</label>
           <div>
-            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="E-mail" />
             <button>Subscribe</button>
           </div>
-          <p>Sign up with your Email address to receie news and updates </p>
+          <p>Sign up with your email address to receice news and updates!</p>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
