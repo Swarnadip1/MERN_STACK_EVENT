@@ -409,7 +409,7 @@ footer .banner .tag div button {
 .services .banner .item img {
   width: 100%;
   height: 100%;
-  border-radius: 10px; /* Adjust the border-radius as per your design */
+  border-radius: 15px; /* Adjust the border-radius as per your design */
   object-fit: cover;
 }
 .services .banner .item h3 {
