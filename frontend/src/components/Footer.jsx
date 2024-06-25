@@ -5,8 +5,8 @@ const Footer = () => {
     <footer>
       <div className="banner">
         <div className="title">
-          <h1>KING's</h1>
-          <p>Events and Weddings</p>
+          <h1>Bhowmik's Planner</h1>
+          <p>360 PLANNER</p>
         </div>
         <div className="tag">
           <label>News Letter</label>
@@ -14,7 +14,7 @@ const Footer = () => {
             <input type="text" placeholder="E-mail" />
             <button>Subscribe</button>
           </div>
-          <p>Sign up with your email address to receice news and updates!</p>
+          <p>Sign up with your email address t0 receive news and updates!</p>
         </div>
       </div>
     </footer>
