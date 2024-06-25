@@ -236,6 +236,12 @@ nav svg {
 .contact .banner .item p {
   color: gray;
 }
+.contact .banner .item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Adjust border radius as per your design */
+  object-fit: cover;
+}
 .contact .banner:last-child .item {
   border: none;
 }
@@ -403,6 +409,8 @@ footer .banner .tag div button {
 .services .banner .item img {
   width: 100%;
   height: 100%;
+  border-radius: 10px; /* Adjust the border-radius as per your design */
+  object-fit: cover;
 }
 .services .banner .item h3 {
   position: absolute;
